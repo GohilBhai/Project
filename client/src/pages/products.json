@@ -1,0 +1,980 @@
+[
+  {
+      "picture": "Img1",
+      "category": "Vegetables",
+      "description": "Organic heirloom tomatoes, fresh from the vine.",
+      "company_name": "Farm Fresh Organics",
+      "price": 2.99,
+      "old_price": 3.99
+  },
+  {
+      "picture": "Img2",
+      "category": "Fruits",
+      "description": "Organic strawberries, bursting with sweetness.",
+      "company_name": "Berry Bliss Farm",
+      "price": 4.49,
+      "old_price": 5.99
+  },
+  {
+      "picture": "Img3",
+      "category": "Dry Fruits",
+      "description": "Organic almonds, a healthy and satisfying snack.",
+      "company_name": "Nutty Nibbles",
+      "price": 7.99,
+      "old_price": 9.99
+  },
+  {
+      "picture": "Img4",
+      "category": "Beverages",
+      "description": "Organic cold brew coffee, smooth and rich in flavor.",
+      "company_name": "Morning Mocha Roasters",
+      "price": 3.79,
+      "old_price": 4.99
+  },
+  {
+      "picture": "Img5",
+      "category": "Dairy and Milk",
+      "description": "Creamy organic whole milk, perfect for cereal or drinking.",
+      "company_name": "Happy Cow Dairy",
+      "price": 3.49,
+      "old_price": 4.49
+  },
+  {
+      "picture": "Img6",
+      "category": "Bakery",
+      "description": "Organic sourdough bread, baked fresh daily.",
+      "company_name": "Rustic Loaf Bakery",
+      "price": 4.99,
+      "old_price": 6.49
+  },
+  {
+      "picture": "Img7",
+      "category": "Snacks",
+      "description": "Organic popcorn seasoned with sea salt and pepper.",
+      "company_name": "Popcorn Paradise",
+      "price": 2.99,
+      "old_price": 3.99
+  },
+ 
+  {
+      "picture": "Img8",
+      "category": "Vegetables",
+      "description": "Organic spinach leaves, packed with nutrients.",
+      "company_name": "Green Leaf Farms",
+      "price": 1.99,
+      "old_price": 2.49
+  },
+  {
+      "picture": "Img9",
+      "category": "Fruits",
+      "description": "Organic blueberries, antioxidant-rich and delicious.",
+      "company_name": "Blueberry Haven",
+      "price": 6.49,
+      "old_price": 7.99
+  },
+  {
+      "picture": "Img10",
+      "category": "Dry Fruits",
+      "description": "Organic cashews, a crunchy and nutritious snack.",
+      "company_name": "Cashew Crunch Co.",
+      "price": 8.29,
+      "old_price": 9.99
+  },
+  {
+      "picture": "Img11",
+      "category": "Beverages",
+      "description": "Organic green tea with jasmine, soothing and aromatic.",
+      "company_name": "Zen Tea Garden",
+      "price": 4.99,
+      "old_price": 6.49
+  },
+  {
+      "picture": "Img12",
+      "category": "Dairy and Milk",
+      "description": "Organic vanilla almond milk, dairy-free and delicious.",
+      "company_name": "Almond Joy Dairy",
+      "price": 3.99,
+      "old_price": 5.49
+  },
+  {
+      "picture": "Img13",
+      "category": "Bakery",
+      "description": "Organic whole grain bagels with seeds on top.",
+      "company_name": "Seed & Grain Bakeshop",
+      "price": 3.79,
+      "old_price": 4.99
+  },
+  {
+      "picture": "Img14",
+      "category": "Snacks",
+      "description": "Organic roasted chickpeas with savory spices.",
+      "company_name": "Chickpea Delights",
+      "price": 3.99,
+      "old_price": 5.49
+  },
+  {
+      "picture": "Img15",
+      "category": "Vegetables",
+      "description": "Organic bell peppers, vibrant in color and flavor.",
+      "company_name": "Rainbow Farms",
+      "price": 3.49,
+      "old_price": 4.49
+  },
+  {
+      "picture": "Img16",
+      "category": "Fruits",
+      "description": "Organic apples, crisp and juicy.",
+      "company_name": "Apple Orchard Organics",
+      "price": 3.99,
+      "old_price": 5.49
+  },
+  {
+      "picture": "Img17",
+      "category": "Dry Fruits",
+      "description": "Organic dried figs, naturally sweet and chewy.",
+      "company_name": "Figgy Delights",
+      "price": 5.99,
+      "old_price": 7.49
+  },  {
+      "picture": "Img18",
+      "category": "Beverages",
+      "description": "Organic coconut water, hydrating and refreshing.",
+      "company_name": "Coconut Oasis",
+      "price": 2.99,
+      "old_price": 3.99
+  },
+  {
+      "picture": "Img19",
+      "category": "Dairy and Milk",
+      "description": "Organic goat cheese, creamy and tangy.",
+      "company_name": "Goat's Pride Dairy",
+      "price": 6.49,
+      "old_price": 8.49
+  },
+  {
+      "picture": "Img20",
+      "category": "Bakery",
+      "description": "Organic multigrain bread, hearty and wholesome.",
+      "company_name": "Whole Grain Bakery",
+      "price": 4.29,
+      "old_price": 5.99
+  },
+  {
+      "picture": "Img21",
+      "category": "Snacks",
+      "description": "Organic kale chips with a hint of garlic and lemon.",
+      "company_name": "Kale Krunch Co.",
+      "price": 3.79,
+      "old_price": 4.99
+  },
+  {
+      "picture": "Img22",
+      "category": "Vegetables",
+      "description": "Organic carrots, crunchy and packed with beta-carotene.",
+      "company_name": "Carrot Crunch Farms",
+      "price": 2.49,
+      "old_price": 3.49
+  },
+  {
+      "picture": "Img23",
+      "category": "Fruits",
+      "description": "Organic oranges, bursting with vitamin C.",
+      "company_name": "Sunrise Citrus Co.",
+      "price": 4.99,
+      "old_price": 6.49
+  },
+  {
+      "picture": "Img24",
+      "category": "Dry Fruits",
+      "description": "Organic raisins, sweet and naturally sun-dried.",
+      "company_name": "Raisin Haven",
+      "price": 3.29,
+      "old_price": 4.49
+  },
+  {
+      "picture": "Img25",
+      "category": "Beverages",
+      "description": "Organic herbal tea sampler, a variety of flavors.",
+      "company_name": "Herbal Harmony",
+      "price": 5.99,
+      "old_price": 7.49
+  },
+  {
+      "picture": "Img26",
+      "category": "Dairy and Milk",
+      "description": "Organic grass-fed butter, rich and creamy.",
+      "company_name": "Butter Bliss Dairy",
+      "price": 7.49,
+      "old_price": 9.99
+  },
+  {
+      "picture": "Img27",
+      "category": "Bakery",
+      "description": "Organic cinnamon rolls, gooey and irresistible.",
+      "company_name": "Cinnamon Treats Bakery",
+      "price": 6.99,
+      "old_price": 8.99
+  },
+  {
+      "picture": "Img28",
+      "category": "Snacks",
+      "description": "Organic mixed nuts, a protein-packed snack.",
+      "company_name": "Nutty Mix Co.",
+      "price": 5.49,
+      "old_price": 6.99
+  },
+  {
+      "picture": "Img29",
+      "category": "Vegetables",
+      "description": "Organic broccoli florets, packed with vitamins and minerals.",
+      "company_name": "Broccoli Bounty",
+      "price": 2.79,
+      "old_price": 3.49
+  },
+  {
+      "picture": "Img30",
+      "category": "Fruits",
+      "description": "Organic peach, sweet and juicy.",
+      "company_name": "Grapevine Groves",
+      "price": 4.99,
+      "old_price": 6.49
+  },
+  {
+      "picture": "Img31",
+      "category": "Dry Fruits",
+      "description": "Organic walnuts, a brain-boosting superfood.",
+      "company_name": "Walnut Wonder",
+      "price": 8.49,
+      "old_price": 9.99
+  },
+  {
+      "picture": "Img32",
+      "category": "Beverages",
+      "description": "Organic chamomile tea, calming and soothing.",
+      "company_name": "Chamomile Dreams",
+      "price": 3.49,
+      "old_price": 4.99
+  },
+  {
+      "picture": "Img33",
+      "category": "Dairy and Milk",
+      "description": "Organic soy milk, lactose-free and delicious.",
+      "company_name": "Soyful Dairy",
+      "price": 4.99,
+      "old_price": 6.49
+  },
+  {  
+    "picture": "Img34",
+    "category": "Beverages",
+    "description": "Organic coconut water with no added sugar, hydrating and refreshing.",
+    "company_name": "Coco Oasis",
+    "price": 2.99,
+    "old_price": 3.99
+},
+{
+    "picture": "Img35",
+    "category": "Dairy and Milk",
+    "description": "Organic milk cheese ice Cream, creamy and tangy.",
+    "company_name": "Goat's Pride Dairy",
+    "price": 6.49,
+    "old_price": 7.99
+},
+{
+    "picture": "Img36",
+    "category": "Bakery",
+    "description": "Organic cinnamon rolls, warm and gooey.",
+    "company_name": "Cinnamon Heaven Bakery",
+    "price": 4.79,
+    "old_price": 5.99
+},
+{
+    "picture": "Img37",
+    "category": "Snacks",
+    "description": "Organic kale chips with a hint of sea salt, crispy and flavorful.",
+    "company_name": "Kale Crunch Co.",
+    "price": 3.49,
+    "old_price": 4.49
+},{
+    "picture": "Img38",
+    "category": "Vegetables",
+    "description": "Organic carrots, crunchy and packed with vitamins.",
+    "company_name": "Carrot Crunch Farms",
+    "price": 1.99,
+    "old_price": 2.49
+},
+{
+    "picture": "Img39",
+    "category": "Fruits",
+    "description": "Organic oranges, juicy and bursting with citrus flavor.",
+    "company_name": "Sunny Grove Orchards",
+    "price": 3.49,
+    "old_price": 4.49
+},
+{
+    "picture": "Img40",
+    "category": "Dry Fruits",
+    "description": "Organic raisins, naturally sweet and chewy.",
+    "company_name": "Raisin Heaven",
+    "price": 4.99,
+    "old_price": 6.49
+},
+{
+    "picture": "Img41",
+    "category": "Beverages",
+    "description": "Organic herbal tea blend for relaxation and tranquility.",
+    "company_name": "Serene Tea Company",
+    "price": 3.99,
+    "old_price": 5.49
+},  
+{
+    "picture": "Img42",
+    "category": "Dairy and Milk",
+    "description": "Organic chocolate milk made with real cocoa.",
+    "company_name": "Choco Joy Dairy",
+    "price": 4.99,
+    "old_price": 6.49
+},
+{
+    "picture": "Img43",
+    "category": "Bakery",
+    "description": "Organic whole grain baguettes, crusty and delicious.",
+    "company_name": "Artisan Breadworks",
+    "price": 3.49,
+    "old_price": 4.49
+},
+{
+    "picture": "Img44",
+    "category": "Snacks",
+    "description": "Organic rice cakes with a layer of dark chocolate.",
+    "company_name": "Cocoa Crunch Snacks",
+    "price": 2.79,
+    "old_price": 3.49
+},
+{
+    "picture": "Img45",
+    "category": "Vegetables",
+    "description": "Organic broccoli florets, perfect for stir-fries and salads.",
+    "company_name": "Broccoli Bliss Farms",
+    "price": 2.49,
+    "old_price": 3.29
+},
+{
+    "picture": "Img2",
+    "category": "Fruits",
+    "description": "Organic mangoes, ripe and bursting with tropical flavor.",
+    "company_name": "Mango Madness Orchards",
+    "price": 5.99,
+    "old_price": 7.49
+},
+{
+    "picture": "Img3",
+    "category": "Dry Fruits",
+    "description": "Organic walnuts, a rich source of omega-3 fatty acids.",
+    "company_name": "Walnut Wonder",
+    "price": 9.99,
+    "old_price": 11.99
+},
+{
+    "picture": "Img11",
+    "category": "Beverages",
+    "description": "Organic kombucha, naturally fermented and probiotic-rich.",
+    "company_name": "Kombucha Culture Co.",
+    "price": 4.49,
+    "old_price": 5.99
+},
+{
+    "picture": "Img12",
+    "category": "Dairy and Milk",
+    "description": "Organic goat milk soap, gentle and moisturizing for all skin types.",
+    "company_name": "Goat's Milk Soaps",
+    "price": 6.79,
+    "old_price": 8.49
+},
+{
+    "picture": "Img6",
+    "category": "Bakery",
+    "description": "Organic banana bread, moist and flavorful.",
+    "company_name": "Banana Bakery",
+    "price": 4.29,
+    "old_price": 5.49
+},
+{
+    "picture": "Img7",
+    "category": "Snacks",
+    "description": "Organic trail mix with a variety of nuts and dried fruits.",
+    "company_name": "Trailblazer Snacks",
+    "price": 5.49,
+    "old_price": 6.99
+},
+{
+    "picture": "Img1",
+    "category": "Vegetables",
+    "description": "Organic zucchini, versatile and delicious in various dishes.",
+    "company_name": "Zesty Zucchini Farms",
+    "price": 2.29,
+    "old_price": 2.99
+},
+{
+    "picture": "Img9",
+    "category": "Fruits",
+    "description": "Organic grapes, sweet and juicy.",
+    "company_name": "Vineyard Fresh Produce",
+    "price": 4.99,
+    "old_price": 6.49
+},
+{
+    "picture": "Img10",
+    "category": "Dry Fruits",
+    "description": "Organic pistachios, lightly salted and full of flavor.",
+    "company_name": "Pistachio Paradise",
+    "price": 10.49,
+    "old_price": 12.99
+},
+{
+    "picture": "Img4",
+    "category": "Beverages",
+    "description": "Organic matcha green tea latte mix, creamy and energizing.",
+    "company_name": "Matcha Marvels",
+    "price": 6.99,
+    "old_price": 8.49
+},
+{
+    "picture": "Img5",
+    "category": "Dairy and Milk",
+    "description": "Organic chocolate ice cream made with real cocoa.",
+    "company_name": "Choco Chill Creamery",
+    "price": 5.99,
+    "old_price": 7.49
+},
+{
+    "picture": "Img13",
+    "category": "Bakery",
+    "description": "Organic cinnamon raisin bagels, warm and chewy.",
+    "company_name": "Cinnamon Raisin Bakery",
+    "price": 3.99,
+    "old_price": 5.49
+},
+{
+    "picture": "Img14",
+    "category": "Snacks",
+    "description": "Organic roasted seaweed snacks, crispy and flavorful.",
+    "company_name": "Seaweed Sensations",
+    "price": 3.49,
+    "old_price": 4.99
+},
+{
+    "picture": "Img8",
+    "category": "Vegetables",
+    "description": "Organic kale, perfect for salads and smoothies.",
+    "company_name": "Kaleidoscope Farms",
+    "price": 2.49,
+    "old_price": 3.29
+},
+{
+    "picture": "Img16",
+    "category": "Fruits",
+    "description": "Organic peaches, juicy and fragrant.",
+    "company_name": "Peachy Keen Orchards",
+    "price": 3.99,
+    "old_price": 5.49
+},
+{
+    "picture": "Img24",
+    "category": "Dry Fruits",
+    "description": "Organic dried apricots, naturally sweet and chewy.",
+    "company_name": "Apricot Delights",
+    "price": 6.49,
+    "old_price": 7.99
+},
+{
+    "picture": "Img18",
+    "category": "Beverages",
+    "description": "Organic hibiscus tea with natural fruity flavors.",
+    "company_name": "Hibiscus Haven",
+    "price": 4.29,
+    "old_price": 5.49
+},
+{
+    "picture": "Img19",
+    "category": "Dairy and Milk",
+    "description": "Organic almond milk, creamy and delicious.",
+    "company_name": "Almond Joy Dairy",
+    "price": 3.99,
+    "old_price": 4.99
+},
+{
+    "picture": "Img20",
+    "category": "Bakery",
+    "description": "Organic sourdough breadsticks, perfect for dipping.",
+    "company_name": "Rustic Bakes",
+    "price": 4.79,
+    "old_price": 6.49
+},
+{
+    "picture": "Img21",
+    "category": "Snacks",
+    "description": "Organic mixed nuts with dried fruits, a satisfying snack.",
+    "company_name": "Nutty Delights",
+    "price": 5.99,
+    "old_price": 7.49
+},
+{
+    "picture": "Img15",
+    "category": "Vegetables",
+    "description": "Organic spinach leaves, packed with nutrients.",
+    "company_name": "Green Leaf Farms",
+    "price": 1.99,
+    "old_price": 2.49
+},
+{
+    "picture": "Img23",
+    "category": "Fruits",
+    "description": "Organic watermelons, sweet and refreshing.",
+    "company_name": "Watermelon Wonderland",
+    "price": 6.99,
+    "old_price": 8.49
+},
+{
+    "picture": "Img31",
+    "category": "Dry Fruits",
+    "description": "Organic dried cranberries, tart and chewy.",
+    "company_name": "Cranberry Craze",
+    "price": 4.49,
+    "old_price": 5.99
+},
+{
+    "picture": "Img25",
+    "category": "Beverages",
+    "description": "Organic ginger lemonade, zesty and invigorating.",
+    "company_name": "Ginger Zing Drinks",
+    "price": 3.99,
+    "old_price": 4.99
+},
+{
+    "picture": "Img26",
+    "category": "Dairy and Milk",
+    "description": "Organic probiotic yogurt with live cultures.",
+    "company_name": "Probiotic Paradise Dairy",
+    "price": 2.99,
+    "old_price": 3.99
+},
+{
+    "picture": "Img27",
+    "category": "Bakery",
+    "description": "Organic multigrain sandwich bread, hearty and wholesome.",
+    "company_name": "Whole Grain Bakery",
+    "price": 3.79,
+    "old_price": 4.99
+},
+{
+    "picture": "Img37",
+    "category": "Snacks",
+    "description": "Organic apple chips, crispy and naturally sweet.",
+    "company_name": "Apple Crunch Snacks",
+    "price": 2.99,
+    "old_price": 3.99
+},
+{
+    "picture": "Img22",
+    "category": "Vegetables",
+    "description": "Organic cucumbers, crisp and refreshing.",
+    "company_name": "Cool Cucumber Farms",
+    "price": 1.49,
+    "old_price": 1.99
+},
+{
+    "picture": "Img30",
+    "category": "Fruits",
+    "description": "Organic kiwi fruit, tangy and packed with vitamin C.",
+    "company_name": "Kiwi Kingdom Orchards",
+    "price": 2.49,
+    "old_price": 3.49
+},
+{
+    "picture": "Img31",
+    "category": "Dry Fruits",
+    "description": "Organic dried mango slices, naturally sweet and chewy.",
+    "company_name": "Mango Magic",
+    "price": 7.49,
+    "old_price": 8.99
+},
+{
+    "picture": "Img32",
+    "category": "Beverages",
+    "description": "Organic chamomile tea for relaxation and stress relief.",
+    "company_name": "Chamomile Comfort",
+    "price": 3.49,
+    "old_price": 4.49
+},
+{
+    "picture": "Img28",
+    "category": "Dairy and Milk",
+    "description": "Organic grass-fed butter, creamy and delicious.",
+    "company_name": "Grassland Dairy",
+    "price": 5.99,
+    "old_price": 7.49
+},
+{
+    "picture": "Img27",
+    "category": "Bakery",
+    "description": "Organic whole grain bagels with seeds on top.",
+    "company_name": "Seed & Grain Bakeshop",
+    "price": 3.79,
+    "old_price": 4.99
+},
+{
+    "picture": "Img44",
+    "category": "Snacks",
+    "description": "Organic roasted chickpeas with savory spices.",
+    "company_name": "Chickpea Delights",
+    "price": 3.99,
+    "old_price": 5.49
+},
+{
+    "picture": "Img29",
+    "category": "Vegetables",
+    "description": "Organic bell peppers, vibrant in color and flavor.",
+    "company_name": "Rainbow Farms",
+    "price": 3.49,
+    "old_price": 4.49
+},
+{
+    "picture": "Img30",
+    "category": "Fruits",
+    "description": "Organic apples, crisp and juicy.",
+    "company_name": "Apple Orchard Organics",
+    "price": 3.99,
+    "old_price": 5.49
+},
+{
+    "picture": "Img40",
+    "category": "Dry Fruits",
+    "description": "Organic dried figs, naturally sweet and chewy.",
+    "company_name": "Figgy Delights",
+    "price": 5.99,
+    "old_price": 7.49
+},
+{
+    "picture": "Img41",
+    "category": "Beverages",
+    "description": "Organic herbal tea blend for relaxation and tranquility.",
+    "company_name": "Serene Tea Company",
+    "price": 3.99,
+    "old_price": 5.49
+},  {
+    "picture": "Img42",
+    "category": "Snacks",
+    "description": "Organic rice crackers with sesame seeds, crunchy and flavorful.",
+    "company_name": "Sesame Snap Snacks",
+    "price": 3.99,
+    "old_price": 4.99
+},
+{
+    "picture": "Img43",
+    "category": "Vegetables",
+    "description": "Organic radishes, crisp and peppery.",
+    "company_name": "Radish Ranch",
+    "price": 1.49,
+    "old_price": 1.99
+},
+{
+    "picture": "Img44",
+    "category": "Fruits",
+    "description": "Organic pineapples, juicy and tropical.",
+    "company_name": "Pineapple Paradise Farms",
+    "price": 5.49,
+    "old_price": 6.99
+},
+{
+    "picture": "Img42",
+    "category": "Dry Fruits",
+    "description": "Organic pecans, rich and buttery.",
+    "company_name": "Pecan Perfection",
+    "price": 11.49,
+    "old_price": 13.99
+},
+{
+    "picture": "Img18",
+    "category": "Beverages",
+    "description": "Organic apple cider vinegar with the mother, raw and unpasteurized.",
+    "company_name": "Vinegar Valley",
+    "price": 3.99,
+    "old_price": 4.99
+},
+{
+    "picture": "Img40",
+    "category": "Dairy and Milk",
+    "description": "Organic Greek yogurt, creamy and tangy.",
+    "company_name": "Greek Yogurt Delights",
+    "price": 4.79,
+    "old_price": 5.99
+},
+{
+    "picture": "Img34",
+    "category": "Bakery",
+    "description": "Organic whole grain pita bread, perfect for sandwiches.",
+    "company_name": "Pita Paradise Bakery",
+    "price": 2.99,
+    "old_price": 3.99
+},
+{
+    "picture": "Img44",
+    "category": "Snacks",
+    "description": "Organic roasted almonds with sea salt, a satisfying snack.",
+    "company_name": "Salted Almond Snacks",
+    "price": 4.49,
+    "old_price": 5.49
+},
+{
+    "picture": "Img45",
+    "category": "Vegetables",
+    "description": "Organic cauliflower, versatile and nutritious.",
+    "company_name": "Cauliflower Corner",
+    "price": 2.29,
+    "old_price": 2.99
+},
+{
+    "picture": "Img39",
+    "category": "Fruits",
+    "description": "Organic raspberries, tart and juicy.",
+    "company_name": "Raspberry Ridge Orchards",
+    "price": 4.99,
+    "old_price": 6.49
+},
+{
+    "picture": "Img10",
+    "category": "Dry Fruits",
+    "description": "Organic dates, naturally sweet and chewy.",
+    "company_name": "Date Delights",
+    "price": 6.99,
+    "old_price": 8.49
+},
+{
+    "picture": "Img11",
+    "category": "Beverages",
+    "description": "Organic yerba mate tea, energizing and invigorating.",
+    "company_name": "Mate Master",
+    "price": 5.49,
+    "old_price": 6.99
+},
+{
+    "picture": "Img26",
+    "category": "Dairy and Milk",
+    "description": "Organic lactose-free cheese, creamy and delicious.",
+    "company_name": "Lactose-Free Cheese Co.",
+    "price": 6.49,
+    "old_price": 7.99
+},
+{
+    "picture": "Img27",
+    "category": "Bakery",
+    "description": "Organic multigrain sandwich rolls, hearty and wholesome.",
+    "company_name": "Multigrain Bakery",
+    "price": 3.79,
+    "old_price": 4.99
+},
+{
+    "picture": "Img14",
+    "category": "Snacks",
+    "description": "Organic vegetable chips, crispy and flavorful.",
+    "company_name": "Veggie Crunch Snacks",
+    "price": 3.99,
+    "old_price": 4.99
+},
+{
+    "picture": "Img22",
+    "category": "Vegetables",
+    "description": "Organic sweet potatoes, rich in vitamins and fiber.",
+    "company_name": "Sweet Potato Fields",
+    "price": 2.49,
+    "old_price": 3.29
+},
+{
+    "picture": "Img23",
+    "category": "Fruits",
+    "description": "Organic blueberries, antioxidant-rich and delicious.",
+    "company_name": "Blueberry Bliss Orchards",
+    "price": 5.99,
+    "old_price": 7.49
+},
+{
+    "picture": "Img24",
+    "category": "Dry Fruits",
+    "description": "Organic cashews, creamy and satisfying.",
+    "company_name": "Cashew Comfort",
+    "price": 9.99,
+    "old_price": 11.99
+},
+{
+    "picture": "Img25",
+    "category": "Beverages",
+    "description": "Organic herbal iced tea blend, refreshing and caffeine-free.",
+    "company_name": "Herbal Chill",
+    "price": 4.49,
+    "old_price": 5.99
+},
+{
+    "picture": "Img26",
+    "category": "Dairy and Milk",
+    "description": "Organic sheep milk cheese, creamy and flavorful.",
+    "company_name": "Sheep's Delight Dairy",
+    "price": 7.49,
+    "old_price": 8.99
+},
+{
+    "picture": "Img27",
+    "category": "Bakery",
+    "description": "Organic gluten-free bread loaf, soft and delicious.",
+    "company_name": "Gluten-Free Delights",
+    "price": 5.99,
+    "old_price": 7.49
+},
+{
+    "picture": "Img37",
+    "category": "Snacks",
+    "description": "Organic popcorn kernels for homemade movie nights.",
+    "company_name": "Popcorn Paradise",
+    "price": 2.99,
+    "old_price": 3.99
+},
+{
+    "picture": "Img8",
+    "category": "Vegetables",
+    "description": "Organic bell peppers, vibrant and crunchy.",
+    "company_name": "Pepper Patch Farms",
+    "price": 2.79,
+    "old_price": 3.49
+},
+{
+    "picture": "Img39",
+    "category": "Fruits",
+    "description": "Organic strawberries, sweet and juicy.",
+    "company_name": "Strawberry Fields Forever",
+    "price": 4.99,
+    "old_price": 6.49
+},
+{
+    "picture": "Img10",
+    "category": "Dry Fruits",
+    "description": "Organic dried figs, naturally sweet and chewy.",
+    "company_name": "Figgy Delights",
+    "price": 7.49,
+    "old_price": 8.99
+},
+  {
+      "picture": "Img4",
+      "category": "Beverages",
+      "description": "Organic ginger lemonade, zesty and refreshing.",
+      "company_name": "Ginger Zing Beverages",
+      "price": 3.99,
+      "old_price": 4.99
+  },
+  {
+      "picture": "Img28",
+      "category": "Dairy and Milk",
+      "description": "Organic vanilla bean ice cream, creamy and indulgent.",
+      "company_name": "Vanilla Dreams Dairy",
+      "price": 5.99,
+      "old_price": 7.49
+  },
+  {
+      "picture": "Img20",
+      "category": "Bakery",
+      "description": "Organic whole grain bagels, chewy and satisfying.",
+      "company_name": "Grainy Goodness Bakery",
+      "price": 3.49,
+      "old_price": 4.49
+  },
+  {
+      "picture": "Img44",
+      "category": "Snacks",
+      "description": "Organic roasted chickpeas with garlic and herbs, crunchy and flavorful.",
+      "company_name": "Chickpea Crunch Snacks",
+      "price": 2.99,
+      "old_price": 3.99
+  },
+  {
+      "picture": "Img29",
+      "category": "Vegetables",
+      "description": "Organic asparagus spears, tender and delicious.",
+      "company_name": "Asparagus Acres",
+      "price": 3.49,
+      "old_price": 4.49
+  },
+  {
+      "picture": "Img30",
+      "category": "Fruits",
+      "description": "Organic cherries, sweet and juicy.",
+      "company_name": "Cherry Blossom Orchards",
+      "price": 6.99,
+      "old_price": 8.49
+  },
+  {
+      "picture": "Img31",
+      "category": "Dry Fruits",
+      "description": "Organic hazelnuts, crunchy and nutritious.",
+      "company_name": "Hazelnut Heaven",
+      "price": 8.49,
+      "old_price": 9.99
+  },
+  {
+      "picture": "Img32",
+      "category": "Beverages",
+      "description": "Organic fruit-infused water, refreshing and hydrating.",
+      "company_name": "Fruit Splash Beverages",
+      "price": 2.49,
+      "old_price": 3.49
+  },
+  {
+      "picture": "Img35",
+      "category": "Dairy and Milk",
+      "description": "Organic strawberry yogurt parfait, creamy and fruity.",
+      "company_name": "Berry Blast Dairy",
+      "price": 4.79,
+      "old_price": 5.99
+  },
+  {
+      "picture": "Img13",
+      "category": "Bakery",
+      "description": "Organic whole grain dinner rolls, soft and fluffy.",
+      "company_name": "Whole Grain Delights",
+      "price": 2.99,
+      "old_price": 3.99
+  },
+  {
+      "picture": "Img14",
+      "category": "Snacks",
+      "description": "Organic trail mix bars with oats and nuts, perfect for on-the-go.",
+      "company_name": "Trail Mix Treats",
+      "price": 4.49,
+      "old_price": 5.49
+  },
+  {
+      "picture": "Img29",
+      "category": "Vegetables",
+      "description": "Organic green beans, crisp and flavorful.",
+      "company_name": "Green Bean Garden",
+      "price": 2.29,
+      "old_price": 2.99
+  },
+  {
+      "picture": "Img30",
+      "category": "Fruits",
+      "description": "Organic pears, juicy and refreshing.",
+      "company_name": "Pear Perfection Orchards",
+      "price": 5.49,
+      "old_price": 6.99
+  },
+  {
+      "picture": "Img3",
+      "category": "Dry Fruits",
+      "description": "Organic pine nuts, buttery and rich in essential nutrients.",
+      "company_name": "Pine Nut Paradise",
+      "price": 13.99,
+      "old_price": 15.99
+  }
+]
+
+
+   
+

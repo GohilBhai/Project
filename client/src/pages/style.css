@@ -1,0 +1,159 @@
+.product-card {
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.product-card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.product-title {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.product-card .card-body {
+    padding: 15px;
+}
+
+
+/*  */
+/*  */
+/*  */
+
+/* Container for the carousel */
+.carousel {
+    width: 90%;
+    /* Adjust the width as needed */
+    margin: 20px auto;
+    /* Add margin on top and bottom, auto left and right to center */
+    overflow: hidden;
+    /* Hide overflowing content */
+}
+.carousel-inner{
+    border: 2px solid black;
+    border-radius: 30px;
+}
+
+/* Images inside the carousel */
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    border-radius:1%;
+}
+
+/* Previous and Next controls */
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+}
+
+/* Indicator position */
+.carousel-indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Indicator color */
+.carousel-indicators li {
+    background-color: #bbb;
+}
+
+/* Active Indicator color */
+.carousel-indicators .active {
+    background-color: #333;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .carousel {
+        width: 95%;
+        /* Adjust the width for smaller screens */
+    }
+}
+
+.carousel-image-container {
+    position: relative;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    /* Adjust the left position as needed */
+    transform: translateY(-50%);
+    color: #fff;
+    text-align: left;
+    /* Align the text to the left */
+}
+
+.carousel-caption h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: left;
+    color: black;
+}
+
+.carousel-caption p {
+    font-size: 30px;
+    color: black;
+}
+
+/*  */
+/*  */
+/* after slider page css in homepage css  */
+
+.container-fluid {
+    margin-top: 30px;
+}
+
+.filter-options {
+    margin-bottom: 20px;
+}
+
+.reset-button {
+    margin-top: 20px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.product-card {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.product-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.product-card .card-body {
+    padding: 15px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.load-more {
+    margin-top: 20px;
+    text-align: center;
+}

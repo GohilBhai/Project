@@ -1,0 +1,138 @@
+.admin-dashboard-container {
+    margin: 20px;
+}
+
+.admin-info-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.admin-info-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.admin-info-item {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+/* create category css  */
+/* create category css  */
+.create-category-container {
+    padding: 20px;
+}
+
+.category-header {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.category-form-container {
+    margin-bottom: 20px;
+}
+
+.category-table-container {
+    overflow-x: auto;
+}
+
+.category-table {
+    width: 100%;
+}
+
+.btn-edit,
+.btn-delete {
+    margin-right: 5px;
+}
+
+.btn-edit,
+.btn-delete {
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.btn-edit:hover,
+.btn-delete:hover {
+    transform: translateY(-3px);
+}
+
+.btn-edit {
+    background-color: #ffc107;
+    border-color: #ffc107;
+    color: #333;
+}
+
+.btn-delete {
+    background-color: #f44336;
+    border-color: #f44336;
+    color: #fff;
+}
+
+.btn-edit:focus,
+.btn-delete:focus {
+    outline: none;
+}
+
+@media (max-width: 768px) {
+    .create-category-container {
+        padding: 10px;
+    }
+}
+
+
+/* product style */
+/* product style */
+
+.product-card {
+    width: 18rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 150px;
+}
+
+.product-image {
+    height: 200px;
+    object-fit: cover;
+}
+
+.product-link {
+    text-decoration: none;
+}
+
+/* Ensure proper spacing between cards */
+.m-2 {
+    margin: 10px;
+}
+
+/* Pagination styling */
+.ant-pagination {
+    margin-top: 20px;
+}
+
+.ant-pagination-item,
+.ant-pagination-prev,
+.ant-pagination-next {
+    border-radius: 5px;
+}
+
+.ant-pagination-item-active {
+    background-color: #1890ff;
+    border-color: #1890ff;
+}
+
+.ant-pagination-item-active a {
+    color: #fff;
+}
+
+.ant-pagination-item a,
+.ant-pagination-prev a,
+.ant-pagination-next a {
+    color: #1890ff;
+}
