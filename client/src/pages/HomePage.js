@@ -11,9 +11,23 @@ import "./style.css";
 import Slide1 from "../assets/images/slider-1.png";
 import Slide2 from "../assets/images/slider-2.png";
 //+++++++++++++++++++++++++++++++++++++++
+import {
+  MDBContainer,
+  MDBRow,
+  MDBCol,
+  MDBCard,
+  MDBCardBody,
+  MDBCardImage,
+  MDBBtn,
+} from "mdb-react-ui-kit";
+import { useNavigate } from "react-router-dom";
+import { useCart } from "../context/cart";
+import toast from "react-hot-toast";
 //+++++++++++++++++++++++++++++++++++++++
 
 const HomePage = () => {
+  const navigate = useNavigate();
+  const [cart, setCart] = useCart();
   const [products, setProducts] = useState([]);
   const [categories, setCategories] = useState([]);
   const [checked, setChecked] = useState([]);
@@ -23,6 +37,14 @@ const HomePage = () => {
   const [loading, setLoading] = useState(false);
 
   // +=============================================
+  function chunkArray(array, chunkSize) {
+    const chunks = [];
+    for (let i = 0; i < array.length; i += chunkSize) {
+      chunks.push(array.slice(i, i + chunkSize));
+    }
+    return chunks;
+  }
+
   // +=============================================
   // slider mate se  .......................
 
@@ -179,7 +201,7 @@ const HomePage = () => {
       {/* slider in home page    */}
       {/* slider in home page    */}
       <div className="container-fluid row mt-5">
-        <div className="col-md-2">
+        <div className="col-md-3">
           <h4 className="text-center">Filter By Category</h4>
           <div className="filter-options">
             {categories?.map((c) => (
@@ -211,30 +233,53 @@ const HomePage = () => {
             </button>
           </div>
         </div>
-        <div className="col-md-9">
+        <div className="col-md-8">
           <h1 className="text-center">All Products</h1>
-          <div className="product-grid">
-            {products?.map((p) => (
-              <div key={p._id} className="product-card">
-                <img
-                  src={`/product/product-photo/${p._id}`}
-                  className="card-img-top"
-                  alt={p.name}
-                />
-                <div className="card-body">
-                  <h5 className="card-title">{p.name}</h5>
-                  <p className="card-text">
-                    {p.description.substring(0, 30)}...
-                  </p>
-                  <p className="card-text">$ {p.price}</p>
-                  <div className="button-group">
-                    <button className="btn btn-primary">More Details</button>
-                    <button className="btn btn-secondary">ADD TO CART</button>
-                  </div>
-                </div>
-              </div>
+          <MDBContainer fluid className="my-5">
+            {chunkArray(products, 3).map((chunk, index) => (
+              <MDBRow key={index}>
+                {chunk.map((p) => (
+                  <MDBCol md="12" lg="4" className="mb-4 mb-lg-0" key={p._id}>
+                    <MDBCard>
+                      <MDBCardImage
+                        src={`/product/product-photo/${p._id}`}
+                        className="card-img-top"
+                        alt={p.name}
+                      />
+                      <MDBCardBody>
+                        <div className="d-flex justify-content-between mb-3">
+                          <h5 className="card-title">{p.name}</h5>
+                          <h5 className="card-text">$ {p.price}</h5>
+                        </div>
+                        <div className="d-flex justify-content-between mb-3">
+                          <MDBBtn
+                            color="info"
+                            onClick={() => navigate(`/product/${p.slug}`)}
+                          >
+                            Detail
+                          </MDBBtn>
+                          <MDBBtn
+                            className="btn btn-secondary ms-1"
+                            onClick={() => {
+                              setCart([...cart, p]);
+                              localStorage.setItem(
+                                "cart",
+                                JSON.stringify([...cart, p])
+                              );
+                              toast.success("Item Added to cart");
+                            }}
+                          >
+                            ADD TO CART
+                          </MDBBtn>
+                        </div>
+                      </MDBCardBody>
+                    </MDBCard>
+                  </MDBCol>
+                ))}
+              </MDBRow>
             ))}
-          </div>
+          </MDBContainer>
+
           <div className="pagination-container">
             <Pagination
               current={page}

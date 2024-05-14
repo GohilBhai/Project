@@ -1,0 +1,83 @@
+
+.card-img-top {
+    height: 200px;
+    /* Set the height of the card image */
+    object-fit: cover;
+    /* Ensure the image covers the entire space */
+}
+
+.card {
+    height: 100%;
+    /* Set the height of the card */
+}
+
+.card-title {
+    font-weight: bold;
+    /* Make card titles bold */
+}
+
+.card-text {
+    color: #333;
+    /* Set card text color */
+}
+
+.card-body {
+    padding: 1.25rem;
+    /* Add padding to card body */
+}
+
+.card-btn {
+    margin-right: 0.5rem;
+    /* Add margin to card buttons */
+}
+
+.carousel-image-container {
+    position: relative;
+    /* Position carousel captions relative to image container */
+}
+
+.carousel-caption {
+    position: absolute;
+    /* Position captions absolutely */
+    bottom: 0;
+    /* Align captions to the bottom */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Add semi-transparent background to captions */
+    color: white;
+    /* Set caption text color */
+    padding: 0.5rem;
+    /* Add padding to captions */
+    width: 100%;
+    /* Make captions span full width */
+}
+
+.pagination-container {
+    display: flex;
+    /* Use flexbox for pagination */
+    justify-content: center;
+    /* Center pagination horizontally */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+    /* Adjust width of carousel control buttons */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(1);
+    /* Invert carousel control button icons */
+}
+
+.filter-options {
+    margin-bottom: 1rem;
+    /* Add margin below filter options */
+}
+
+.reset-button {
+    text-align: center;
+    /* Center reset button text */
+    margin-top: 1rem;
+    /* Add margin above reset button */
+}
